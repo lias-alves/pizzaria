@@ -40,6 +40,12 @@ header {
 
 .nav-item {
     margin: 0 15px;
+    padding: 6px 6px;
+}
+
+.nav-item:hover {
+    background: #464646;
+    border-radius: 5px;
 }
 
 .nav-link {
@@ -63,6 +69,9 @@ header {
     }
     .nav-item {
         display: none;
+    }
+    .nav-item:hover{
+        background: none;
     }
     .mobile-menu-icon {
         display: block;
